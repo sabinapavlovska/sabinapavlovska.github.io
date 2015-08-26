@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
-/*
-	Strata by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2088,9 +2082,7 @@
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 150px;
-				height: 150px;
-
+				width: 100%;
 			}
 
 /* List */
@@ -2467,10 +2459,10 @@
 	#header {
 		background-color: #1f1815;
 		background-attachment: fixed;
-		background-image: url("../../images/bg.jpeg");
+		background-image: url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: 100%,								auto 100%;
+		background-size: auto,								auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2911,7 +2903,7 @@
 			#header {
 				background-attachment: scroll;
 				background-position: top left, center center;
-				background-size: 100%;
+				background-size: auto,		cover;
 				left: auto;
 				padding: 6em 4em;
 				position: relative;
@@ -2933,10 +2925,10 @@
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpeg");
-				background-position: top left,						bottom center;
-				background-repeat: repeat,							no-repeat;
-				background-size: auto,							cover;
+				background-image: url("../../images/bg.jpg");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: auto;
 				bottom: auto;
 				left: auto;
 				padding: 4em 4em 6em 4em;
